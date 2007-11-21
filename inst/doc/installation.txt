@@ -1,0 +1,25 @@
+--------------------------------------------------------------------------------
+
+Installation instructions for R/S-plus package mtm
+==========================================================
+
+A. Unix or Macintosh installation:
+
+(1) Save the tar.gz file in some folder. From within the folder, at the command
+prompt, type:
+
+R CMD INSTALL lnMLE_1.0.tar.gz
+
+(2) In case, you do not have a site-wide installation permission, you can create
+a folder named "localRlib" (without the quotes) and save the package there. Now
+change directory to localRlib. From within the folder, at the command prompt,
+type:
+
+R CMD INSTALL -l localRlib lnMLE_1.0.tar.gz cd localRlib
+
+B. Windows installation:
+
+(1) Save the .zip file in some folder and start R. Click on menu: Packages ->
+Install package(s) from local zip files.  Change to the folder where you just
+saved the .zip file and select lnMLE_1.0.zip. R will take the necessary
+steps to install the package.
