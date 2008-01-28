@@ -28,8 +28,6 @@ None.
 
 \references{  }
 \author{ Bryan Comstock, bac4@u.washington.edu }
-\note{ No Notes.. }
-
 
 \seealso{ \code{\link{logit.normal.mle}} }
 \examples{

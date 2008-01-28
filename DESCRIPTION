@@ -1,10 +1,9 @@
 Package: lnMLE
-Type: Package
-Title: Marginally specified logisti normal models for longitudinal binary data
-Version: 1.0
-Date: 2007-11-21
-Author: Patrick Heagerty
-Maintainer: Bryan Comstock <bac4@u.washington.edu>
-Description: Does stuff.
+Version: 1.0-1
+Title:  Logistic-Normal Model for Clustered Binary (Binomial) Data
+Depends: R (>= 1.9.0)
+Author: S original by Patrick Heagerty, ported by Bryan Comstock
+Description: Maximum likelihood estimation for clustered binary data
+Maintainer: Patrick Heagerty <heagerty@u.washington.edu>
 License: GPL-2
-Packaged: Tue Jan 22 12:17:56 2008; install
+Packaged: Mon Jan 28 10:49:58 2008; install

@@ -12,14 +12,14 @@
 #ifndef F2C_INCLUDE
 #define F2C_INCLUDE
 
-typedef long int integer;
+typedef int integer;
 typedef char *address;
 typedef short int shortint;
 typedef float real;
 typedef double doublereal;
 typedef struct { real r, i; } complex;
 typedef struct { doublereal r, i; } doublecomplex;
-typedef long int logical;
+typedef int logical;
 typedef short int shortlogical;
 typedef char logical1;
 typedef char integer1;
@@ -43,9 +43,9 @@ typedef short flag;
 typedef short ftnlen;
 typedef short ftnint;
 #else
-typedef long flag;
-typedef long ftnlen;
-typedef long ftnint;
+typedef int flag;
+typedef int ftnlen;
+typedef int ftnint;
 #endif
 
 /*external read, write*/
@@ -138,7 +138,7 @@ union Multitype {	/* for multiple entry points */
 
 typedef union Multitype Multitype;
 
-typedef long Long;	/* No longer used; formerly in Namelist */
+typedef int Long;	/* No longer used; formerly in Namelist */
 
 struct Vardesc {	/* for Namelist */
 	char *name;
